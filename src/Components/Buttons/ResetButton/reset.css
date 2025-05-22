@@ -1,0 +1,10 @@
+.btn button {
+    background-color: inherit;
+}
+.btn button .icons {
+    width: 30px;
+    height: 30px;
+}
+.btn button .icons:hover {
+    color: #6da5d6;
+}

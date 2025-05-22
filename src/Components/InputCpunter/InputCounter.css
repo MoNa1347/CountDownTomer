@@ -1,0 +1,27 @@
+.InputCounter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+.InputCounter-container .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.InputCounter-container label , p {
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.InputCounter-container button {
+    background-color: inherit;
+}
+.InputCounter-container button .icons {
+    width: 30px;
+    height: 30px;
+}
+.InputCounter-container button .icons:hover {
+    color: #6da5d6;
+}

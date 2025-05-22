@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.Container {
+  width: 40%;
+  height: 80vh;
+  background: linear-gradient(135deg, #1e1e1e 0%, #3a3a3a 50%, #4facfe 100%);
+  background-size: 300% 300%;
+  animation: gradientMove 6s ease infinite;
+  color: white;
+  text-align: center;
+  margin: auto;
+  border-radius: 2rem;
+}
+@media(max-width: 700px) {
+  .Container {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0%;
+    margin: 0;
+  }
+}

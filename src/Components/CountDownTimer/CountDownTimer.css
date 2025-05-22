@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.CountDownTimer-container {
+    padding: 2rem;
+}
+.title {
+    padding: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.content {
+    height: 30vh;
+}
+.incons {
+    display: flex;
+    justify-content: space-around;
+}
